@@ -1,0 +1,106 @@
+// Graph of Wikipedia Articles
+digraph {
+	"Информатика" [label="Информатика"]
+	"1948 Год" [label="1948 Год"]
+	"1960-Е Год" [label="1960-Е Год"]
+	"4 Декабрь" [label="4 Декабрь"]
+	Case [label=Case]
+	"Cgi (Графика)" [label="Cgi (Графика)"]
+	Cmmi [label=Cmmi]
+	Csab [label=Csab]
+	"Capability Maturity Model" [label="Capability Maturity Model"]
+	"Cleanroom Software Engineering" [label="Cleanroom Software Engineering"]
+	"Communications Of The Acm" [label="Communications Of The Acm"]
+	"Computer Science And Engineering" [label="Computer Science And Engineering"]
+	Createspace [label=Createspace]
+	Dsdm [label=Dsdm]
+	Doi [label=Doi]
+	"Dual Vee Model" [label="Dual Vee Model"]
+	"Folding@Home" [label="Folding@Home"]
+	"Function Model" [label="Function Model"]
+	"Garland Science" [label="Garland Science"]
+	"Gemeinsame Normdatei" [label="Gemeinsame Normdatei"]
+	Http [label=Http]
+	Ibm [label=Ibm]
+	"Ibm 704" [label="Ibm 704"]
+	Idef [label=Idef]
+	"Levy, Steven" [label="Levy, Steven"]
+	"Microsoft Solutions Framework" [label="Microsoft Solutions Framework"]
+	"Minds And Machines" [label="Minds And Machines"]
+	"National Academies Press" [label="National Academies Press"]
+	"Object Model" [label="Object Model"]
+	Openup [label=Openup]
+	"Информатика" -> "1948 Год"
+	"Информатика" -> "1960-Е Год"
+	"Информатика" -> "4 Декабрь"
+	"Информатика" -> Case
+	"Информатика" -> "Cgi (Графика)"
+	"Информатика" -> Cmmi
+	"Информатика" -> Csab
+	"Информатика" -> "Capability Maturity Model"
+	"Информатика" -> "Cleanroom Software Engineering"
+	"Информатика" -> "Communications Of The Acm"
+	"Информатика" -> "Computer Science And Engineering"
+	"Информатика" -> Createspace
+	"Информатика" -> Dsdm
+	"Информатика" -> Doi
+	"Информатика" -> "Dual Vee Model"
+	"Информатика" -> "Folding@Home"
+	"Информатика" -> "Function Model"
+	"Информатика" -> "Garland Science"
+	"Информатика" -> "Gemeinsame Normdatei"
+	"Информатика" -> Http
+	"Информатика" -> Ibm
+	"Информатика" -> "Ibm 704"
+	"Информатика" -> Idef
+	"Информатика" -> "Levy, Steven"
+	"Информатика" -> "Microsoft Solutions Framework"
+	"Информатика" -> "Minds And Machines"
+	"Информатика" -> "National Academies Press"
+	"Информатика" -> "Object Model"
+	"Информатика" -> Openup
+	Case -> Case
+	"Capability Maturity Model" -> Case
+	"Capability Maturity Model" -> Cmmi
+	"Capability Maturity Model" -> "Cleanroom Software Engineering"
+	"Capability Maturity Model" -> Dsdm
+	"Capability Maturity Model" -> "Dual Vee Model"
+	"Capability Maturity Model" -> "Function Model"
+	"Capability Maturity Model" -> Idef
+	"Capability Maturity Model" -> "Microsoft Solutions Framework"
+	"Capability Maturity Model" -> "Object Model"
+	"Capability Maturity Model" -> Openup
+	"Cleanroom Software Engineering" -> Case
+	"Cleanroom Software Engineering" -> Cmmi
+	"Cleanroom Software Engineering" -> "Capability Maturity Model"
+	"Cleanroom Software Engineering" -> Dsdm
+	"Cleanroom Software Engineering" -> "Dual Vee Model"
+	"Cleanroom Software Engineering" -> "Function Model"
+	"Cleanroom Software Engineering" -> Ibm
+	"Cleanroom Software Engineering" -> Idef
+	"Cleanroom Software Engineering" -> "Microsoft Solutions Framework"
+	"Cleanroom Software Engineering" -> "Object Model"
+	"Cleanroom Software Engineering" -> Openup
+	"Dual Vee Model" -> Case
+	"Dual Vee Model" -> Cmmi
+	"Dual Vee Model" -> "Capability Maturity Model"
+	"Dual Vee Model" -> "Cleanroom Software Engineering"
+	"Dual Vee Model" -> Dsdm
+	"Dual Vee Model" -> "Function Model"
+	"Dual Vee Model" -> Idef
+	"Dual Vee Model" -> "Microsoft Solutions Framework"
+	"Dual Vee Model" -> "Object Model"
+	"Dual Vee Model" -> Openup
+	"Folding@Home" -> "Folding@Home"
+	Http -> Http
+	"Microsoft Solutions Framework" -> Case
+	"Microsoft Solutions Framework" -> Cmmi
+	"Microsoft Solutions Framework" -> "Capability Maturity Model"
+	"Microsoft Solutions Framework" -> "Cleanroom Software Engineering"
+	"Microsoft Solutions Framework" -> Dsdm
+	"Microsoft Solutions Framework" -> "Dual Vee Model"
+	"Microsoft Solutions Framework" -> "Function Model"
+	"Microsoft Solutions Framework" -> Idef
+	"Microsoft Solutions Framework" -> "Object Model"
+	"Microsoft Solutions Framework" -> Openup
+}
